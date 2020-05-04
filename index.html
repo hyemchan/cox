@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.gif" alt="logo"></a>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">JOIN</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </div>
+            </div>
+        </header>
+        <div class="main_banner slider">
+            <div>
+                <img src="images/main_01.PNG" alt="main_image01">
+            </div>
+             <div>
+                <img src="images/main_02.PNG" alt="main_image02">
+            </div>
+            <div>
+                <img src="images/main_03.PNG" alt="main_image03">
+            </div>
+            <div>
+                <img src="images/main_04.PNG" alt="main_image04">
+            </div>
+            <div>
+                <img src="images/main_05.PNG" alt="main_image05">
+            </div>
+        </div>
+        <section class="section">
+            <div class="menu">
+            <span><a href="#">Best Product</a></span>
+            <span>/</span>
+            <span><a href="#">New Product</a></span>
+            </div>
+            <div class="item">
+                <a href="http://www.coxenc.co.kr/sub/product/product_view.aspx?no=107">
+                    <img src="images/best_011.jpg" alt="image01">
+                </a>
+                <a href="http://www.coxenc.co.kr/sub/product/product_view.aspx?no=133">
+                    <img src="images/best_022.jpg" alt="image02">
+                </a>
+                <a href="http://www.coxenc.co.kr/sub/product/product_view.aspx?no=197">
+                    <img src="images/best_033.jpg" alt="image03">
+                </a>
+                <a href="http://www.coxenc.co.kr/sub/product/product_view.aspx?no=202">
+                    <img src="images/best_044.jpg" alt="image04">
+                </a>
+                <a href="http://www.coxenc.co.kr/sub/product/product_view.aspx?no=227">
+                    <img src="images/best_055.jpg" alt="image05">
+                </a>
+            </div>
+            <div id="solid"></div>
+            <div class="info">
+                <div class="notice">
+                    <h4>NOTICE<button>+</button></h4>
+                    <p><a href="#">콕스, 트라이얼마트 기흥점 입점 완료</a></p>
+                    <p><a href="#">콕스, CK87 및 CK10 게이밍 키보드 특가 판매</a></p>
+                    <p><a href="#">콕스, 이중사출 심리스 키캡 적용한 ‘CK87 크림블루’ 키보드 출시</a></p>
+                    <p><a href="#">콕스, 공간 활용도 강화한 'XGD01' 게이밍 책상 선보여</a></p>
+                </div>
+                <div class="community">
+                    <h4>COMMUNITY</h4>
+                    <div><span><a href="#">제품A/S문의</a></span></div>
+                    <div><span><a href="#">자주묻는질문</a></span></div>
+                    <div><span><a href="#">서비스<br>규정</a></span></div>
+                </div>
+                <div class="cs_center">
+                    <h4>CUSTOMER CENTER</h4>
+                    <span>02.1800.7930</span>
+                    <p>평일:오전 9시30분~오후5시<br>
+                    점심시간:오전 12시~오후1시<br>
+                    토,일요일,공휴일은 휴무입니다.</p>
+                </div>
+            </div>
+        </section>
+        <div id="solid"></div>
+        <footer class="footer">
+            <div class="footer_01">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <footer class="footer_02">
+                <ul>
+                    <li>개인정보관리 책임자:조용길</li>
+                    <li>관라자메일:webmaster@cox.co.kr</li>
+                    <li>통신판매신호:제 2002-00049</li><br>
+                    <li>공정거래위원회 심의 표준약관:제 10023호</li>
+                    <li>분쟁조정기관:전자거래 분쟁조정 위원회</li>
+                    <li>주소:서울시 강서구 마곡중앙1로 20 M시그니처 7층</li>
+                    <li>전화번호:02-1800-7930</li>
+                    <li>Copyright© 2015 COX All Rights Reserved</li>
+                </ul>
+                </footer>
+            </footer>
+        </footer>
+    </div>
+</body>
+<script>
+    $(function(){
+      $('.slider').bxSlider({
+          mode:'horizontal',
+          captions:true,
+          boolean:true,
+          integer:300,
+          auto:true
+      });
+    });
+  </script>
+</html>

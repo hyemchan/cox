@@ -1,0 +1,26 @@
+@charset 'utf-8';
+
+.menu{
+    padding:60px;
+    font-size:28px;
+    text-align:center;
+}
+
+.menu>span>a{
+    color:#9D9D9D;
+    margin:10px;
+}
+
+.menu>span>a:hover{
+    color:#EC6611;
+}
+
+.item{
+    margin-bottom:150px;
+}
+
+.item>a>img{
+    margin:0 0 0 45px;
+    padding:15px 0;
+    border:1px solid #9D9D9D;
+}
